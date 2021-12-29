@@ -1,17 +1,18 @@
 header { 
     text-align: center;
     font-size: 48px;
+    font-weight: bold;
 }
 
 * {
     text-transform: lowercase;
-    font-family: monospace;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 ul li {
     text-decoration: none;
     background-color: white;
-    display:inline-block;
+    display: inline-block;
     border: 2px solid black;
     padding: 5px;
 }
@@ -20,7 +21,12 @@ ul li a {
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
+}
 
+ul {
+    padding: 0;
+    list-style-type: none;
 }
 
 li:hover {
