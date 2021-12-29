@@ -1,9 +1,25 @@
 header { 
     text-align: center;
-    font-size: 24px;
+    font-size: 36px;
 }
 
 * {
     text-transform: lowercase;
     font-family: monospace;
+}
+
+ul li {
+    text-decoration: none;
+    background-color: white;
+    display:inline-block;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(45deg, lightpink,pink);
 }
