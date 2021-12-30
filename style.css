@@ -66,3 +66,33 @@ p {
 ::-webkit-scrollbar {
     width: 1em;
 }
+
+#missionstatement {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    display: flex;
+}
+
+img {
+    border: 15px solid black;
+    margin-right: 40px;
+}
+
+#rounded {
+    margin: 50px 30px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: black;
+  }
+
+#mainheader {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: none;
+}
+
+#title {
+    text-transform: none;
+}
