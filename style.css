@@ -1,11 +1,12 @@
 header { 
     display: flex;
     justify-content: space-between;
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: bold;
     flex-direction: column;
     padding: 1rem 1rem;
     background-color: #90BFEE;
+    text-align: center;
 }
 
 @media (min-width: 40em) {
@@ -26,14 +27,15 @@ ul li {
     text-decoration: none;
     background-color: white;
     display: inline-block;
-    border: .4rem solid black;
+    border: .2rem solid black;
     padding: 0 .4rem;
     border-radius: .2rem;
+    align-items: center;
 }
 
 ul li a {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: .9rem;
     font-weight: bold;
     color: black;
     display: flex;
@@ -83,12 +85,13 @@ p {
 }
 
 #missionstatement {
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 8rem;
     background-color: lightcyan;
     position: relative;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     display: flex;
     flex-direction: column;
     background-color: #90BFEE;
@@ -99,17 +102,16 @@ p {
     padding-right: 5rem;
 }
 
-@media (min-width: 57.25rem) {
-    #missionstatement {
-        flex-direction: row;
-    }
-}
+
 
 img {
-    border: 1rem solid black;
+    display: block;
+    border: .5rem solid black;
     margin-right: 2rem;
     border-radius: .2rem;
     margin-left: 2rem;
+    max-width: 30rem;
+    max-height: 30rem;
 }
 
 #rounded {
@@ -129,6 +131,7 @@ img {
 
 #title {
     text-transform: none;
+    padding-bottom: 1rem;
 }
 
 .button {
@@ -162,6 +165,60 @@ img {
 p > a {
 font-size: 1.5rem;
 }
+
+@media only screen and (min-width: 390px) {
+    #missionstatement {
+        padding-top: 5rem;
+        padding-left: max(5rem);
+        padding-right: max(5rem);
+        flex-direction: row;
+        background-color: #90BFEE;
+    }
+
+    img {
+        border: 1rem solid black;
+    }
+        
+    ul li {
+        text-decoration: none;
+        background-color: white;
+        display: inline-block;
+        border: .4rem solid black;
+        padding: 0 .4rem;
+        border-radius: .2rem;
+    }
+
+    ul li a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: black;
+        display: flex;
+        justify-content: right;
+        margin: 7px;
+    }
+
+    ul {
+        list-style-type: none;
+        display: inline-block;
+        align-items: right;
+        margin: 0;
+        padding: 0;
+    }
+
+    header { 
+        display: flex;
+        justify-content: space-between;
+        font-size: 3rem;
+        font-weight: bold;
+        flex-direction: row;
+        padding: 1rem 1rem;
+        background-color: #90BFEE;
+    }    
+
+}
+
+/* section svgs*/
 .benefit {
     padding-top: 10rem;
     padding-bottom: 8rem;
