@@ -1,19 +1,12 @@
 header { 
     display: flex;
     justify-content: space-between;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     flex-direction: column;
     padding: 1rem 1rem;
     background-color: #90BFEE;
     text-align: center;
-}
-
-@media (min-width: 40em) {
-    header {
-        flex-direction: row;
-        align-items: center;
-    }
 }
 
 * {
@@ -35,7 +28,7 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    font-size: .9rem;
+    font-size: .8rem;
     font-weight: bold;
     color: black;
     display: flex;
@@ -66,7 +59,7 @@ h1 {
 
 p {
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: 0;
 }
 
 ::-webkit-scrollbar-track {
@@ -90,8 +83,8 @@ p {
     background-color: lightcyan;
     position: relative;
     padding-top: 3rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
     display: flex;
     flex-direction: column;
     background-color: #90BFEE;
@@ -103,15 +96,15 @@ p {
 }
 
 
-
-img {
+#missionstatement img {
     display: block;
     border: .5rem solid black;
     margin-right: 2rem;
     border-radius: .2rem;
     margin-left: 2rem;
-    max-width: 30rem;
+    max-width: 100%;
     max-height: 30rem;
+    margin: 0 auto;
 }
 
 #rounded {
@@ -166,17 +159,18 @@ p > a {
 font-size: 1.5rem;
 }
 
-@media only screen and (min-width: 390px) {
+@media only screen and (min-width: 800px) {
     #missionstatement {
         padding-top: 5rem;
         padding-left: max(5rem);
         padding-right: max(5rem);
         flex-direction: row;
         background-color: #90BFEE;
+        width: 100%;
     }
 
     img {
-        border: 1rem solid black;
+        border: 2rem solid black;
     }
         
     ul li {
