@@ -167,7 +167,13 @@ font-size: 1.5rem;
         padding-right: max(5rem);
         flex-direction: row;
         background-color: #90BFEE;
-        width: 100%;
+        max-width: 100%;
+    }
+
+    
+    #para {
+    padding-left: 6rem;
+    padding-right: 0rem;
     }
 
     img {
