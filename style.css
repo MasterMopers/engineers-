@@ -44,6 +44,13 @@ ul {
     padding: 0;
 }
 
+hr {
+    margin: 3rem;
+    border-radius: .5rem;
+    height: 1rem;
+    background-color: black;
+}
+
 li:hover {
     background-color: rgb(212, 212, 212);
 }
@@ -99,7 +106,6 @@ p {
 
 #missionstatement img {
     display: block;
-    border: .5rem solid black;
     margin-right: 2rem;
     border-radius: .2rem;
     margin-left: 2rem;
@@ -107,6 +113,10 @@ p {
     max-height: 30rem;
     margin: 0 auto;
     margin-bottom: 1rem;
+}
+
+#missionstatement #para {
+    margin-top: 2rem;
 }
 
 #rounded {
@@ -176,7 +186,6 @@ font-size: 1.5rem;
     }
 
     #missionstatement img {
-        border: .8rem solid black;
     }
         
     ul li {
