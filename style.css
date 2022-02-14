@@ -31,7 +31,7 @@ ul li a {
     font-size: .8rem;
     font-weight: bold;
     color: black;
-    display: flex;
+    display: block;
     justify-content: right;
     margin: 7px;
 }
@@ -206,7 +206,7 @@ font-size: 1.5rem;
         font-size: 1.5rem;
         font-weight: bold;
         color: black;
-        display: flex;
+        display: block;
         justify-content: right;
         margin: 7px;
     }
