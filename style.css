@@ -11,16 +11,16 @@ header {
 
 
 * {
-    font-family: 'Outfit', sans-serif;
+    font-family: calibri;
     margin: 0;
     padding: 0;
 }
 
 ul li {
     text-decoration: none;
-    background-color: white;
+    /*background-color: white;*/
     display: inline-block;
-    border: .2rem solid black;
+    /*border: .2rem solid black;*/
     padding: 0 .4rem;
     border-radius: .2rem;
     align-items: center;
@@ -52,7 +52,7 @@ hr {
 }
 
 li:hover {
-    background-color: rgb(212, 212, 212);
+    text-decoration: underline 3px;
 }
 
 body {
@@ -194,11 +194,10 @@ font-size: 1.5rem;
         
     ul li {
         text-decoration: none;
-        background-color: white;
         display: inline-block;
-        border: .4rem solid black;
         padding: 0 .4rem;
         border-radius: .2rem;
+        padding-bottom: 10px;
     }
 
     ul li a {
