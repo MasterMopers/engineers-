@@ -20,7 +20,7 @@ ul li {
     text-decoration: none;
     /*background-color: white;*/
     display: inline-block;
-    /*border: .2rem solid black;*/
+    /*border: .2rem solid black;*/ 
     padding: 0 .4rem;
     border-radius: .2rem;
     align-items: center;
@@ -28,9 +28,6 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    font-size: .8rem;
-    font-weight: bold;
-    color: black;
     display: block;
     justify-content: right;
     margin: 7px;
@@ -106,13 +103,9 @@ p {
 
 #missionstatement img {
     display: block;
-    margin-right: 2rem;
-    border-radius: .2rem;
-    margin-left: 2rem;
-    max-width: 90%;
-    max-height: 30rem;
-    margin: 0 auto;
-    margin-bottom: 1rem;
+    margin: auto;
+    max-width: 40rem;
+    max-height: 40rem;
 }
 
 #missionstatement #para {
@@ -151,6 +144,10 @@ p {
     margin: auto;
 }
 
+.button:hover {
+    background-color: lightgrey;
+}
+
 .benefit p {
     padding-bottom: 3rem;
 }
@@ -163,7 +160,7 @@ p {
 #para .button {
     margin-top: 3rem;
     padding: .9rem;
-    font-size: 1.5rem; 
+    font-size: 1.0rem; 
 }
 
 p > a {
@@ -265,6 +262,11 @@ font-size: 1.5rem;
     padding-left: 5rem;
     padding-right: 5rem;
 }
+
+
+
+
+
 
 /* SVG Waves */
 
