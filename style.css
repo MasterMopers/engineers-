@@ -42,13 +42,6 @@ ul {
     padding: 0;
 }
 
-hr {
-    margin: 3rem;
-    border-radius: .5rem;
-    height: 1rem;
-    background-color: black;
-}
-
 li:hover {
     text-decoration: underline 3px;
 }
@@ -66,21 +59,6 @@ p {
     font-size: 2.5rem;
     font-weight: 600;
     padding: 0;
-}
-
-::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-    background: black;
-    border: .15rem solid white;
-    border-radius: .9rem;
-
-}
-
-::-webkit-scrollbar {
-    width: .5em;
 }
 
 #missionstatement {
@@ -284,9 +262,6 @@ p > a {
     padding-left: 5rem;
     padding-right: 5rem;
 }
-
-
-
 
 
 
