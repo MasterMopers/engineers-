@@ -55,6 +55,10 @@ h1 {
     padding: 1rem 0rem;
 }
 
+h3 {
+    font-size: 3rem;
+}
+
 p {
     font-size: 2.5rem;
     font-weight: 600;
@@ -236,7 +240,7 @@ p > a {
     color: black;
 }
 
-.projectone {
+.sectionone {
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-color: #EEBF90;
@@ -245,7 +249,7 @@ p > a {
     padding-right: 5rem;
 }
 
-.projecttwo {
+.sectiontwo {
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-color: lightcyan;
@@ -254,7 +258,7 @@ p > a {
     padding-right: 5rem;
 }
 
-.projectthree {
+.sectionthree {
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-color: #EE90EE;
@@ -263,6 +267,26 @@ p > a {
     padding-right: 5rem;
 }
 
+.projectone {
+    margin: 3rem;
+}
+
+.projectone img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    width: 50rem;
+}
+
+.projectone li {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.projectone h3 {
+    margin-top: 5rem;
+}
 
 
 /* SVG Waves */
