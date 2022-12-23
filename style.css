@@ -68,7 +68,7 @@ p {
   font-weight: 600;
 }
 .missionstatement {
-  padding-top: 5rem;
+  padding-top: 2rem;
   padding-left: max(5rem);
   padding-right: max(5rem);
   flex-direction: row;
